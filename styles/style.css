@@ -204,6 +204,12 @@ section div h2 {
 
 .footer-container .redes img {
     width: 2.5em;
+    margin: 10px;
+}
+
+.footer-container .redes img:hover {
+    transform: scale(2);
+    transition: all 1s ease;
 }
 
 .mapa { 
