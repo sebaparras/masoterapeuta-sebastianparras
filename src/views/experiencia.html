@@ -35,7 +35,7 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse d-flex justify-content-center fw-bold" id="navbarNav">
+              <div class="collapse navbar-collapse fw-bold" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item mx-4">
                         <a class="nav-link active link-warning" aria-current="page" href="../../index.html">INICIO</a>
@@ -62,10 +62,9 @@
 
     <section class="encabezado-experiencia">
         <h1>Experiencia</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ex similique pariatur, exercitationem rem saepe omnis quis culpa tempora? Delectus, laudantium? Molestiae voluptas placeat natus amet eum alias quo fuga?</p>
     </section>
 
-    <section class="experiencia-container">
+    <!-- <section class="experiencia-container">
         <div class="experiencia-item1">
             <img src="../assets/img/experiencia1.jpg" alt="Alimentos">
             <h2>Alimentación liviana pre-sesión</h2>
@@ -79,10 +78,53 @@
             <h2>Hoja clínica</h2>
         </div>
         <div class="experiencia-item4">
-            <img src="../assets/img/experiencia4.jpg" alt="Anticipos y pagos">
+            <img src="../assets/img/experiencia4.jpg" alt="Pagos y anticipos">
             <h2>Pagos y anticipos</h2>
         </div>
-    </section>
+    </section> -->
+
+    <!-- Sección de Experiencia con cards de Bootstrap-->
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card w-50 mx-auto">
+            <img src="../assets/img/experiencia1.jpg" class="card-img-top" alt="Alimentos">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Alimentación</h5>
+              <p class="card-text">Recomendamos ingerir alimentos ligeros antes de tu tratamiento o sesión de masajes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-50 mx-auto">
+            <img src="../assets/img/experiencia2.jpg" class="card-img-top" alt="Baby face">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Afeitado para faciales</h5>
+              <p class="card-text">Recomendamos que los caballeros se afeiten 1 día antes para obtener la mayor experiencia de su facial.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-50 mx-auto">
+            <img src="../assets/img/experiencia3.jpg" class="card-img-top" alt="Hoja clínica">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Hoja clínica</h5>
+              <p class="card-text">Deseamos conocer tu estado de salud actual, por lo que, te pediremos llenar una breve hoja clinica a tu llegada.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-50 mx-auto">
+            <img src="../assets/img/experiencia4.jpg" class="card-img-top" alt="Pagos y anticipos">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Pagos y anticipos</h5>
+              <p class="card-text">Puedes realizar un anticipo a tu experiencia de masajes o tratamiento. También contamos con diversos métodos de pago.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fin sección de Experiencia -->
     
     <footer class="footer-container">
         <div class="redes">
