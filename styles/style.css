@@ -6,7 +6,7 @@
 
 body {
     text-align: center;
-    background-color: #EDCB54;
+    background-color: khaki;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -56,7 +56,7 @@ header .header-menu .menu li a:hover {
 /* Estilos del header con Bootstrap */
 
 .bg-menu {
-    background-color: black;
+    background-color: darkkhaki;
 }
 
 .collapse {
@@ -178,7 +178,7 @@ section div h2 {
 
 /* Sección Experiencia */
 
-.experiencia-container {
+/* .experiencia-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -197,6 +197,18 @@ section div h2 {
 }
 .experiencia-item4 { 
     grid-area: 2 / 2 / 3 / 3; 
+} */
+
+.card {
+    width: 50%;
+    height: 95%;
+    margin-bottom: 2.5rem;
+    border-radius: 2rem;
+}
+
+.card-personalizada {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* Fin sección Experiencia */
@@ -282,13 +294,17 @@ footer div nav ul li a:hover {
 
     /* Estilos del Header con Bootstrap */
 
+    header img {
+        width: 100%;
+    }
+
     .collapse {
         margin-left: 0;
         font-size: 0.75rem;
     }
 
     .navbar {
-        background-color: mediumpurple;
+        background-color: darkkhaki;
     }
 
     /* Fin estilos del Header con Bootstrap */
@@ -387,7 +403,7 @@ footer div nav ul li a:hover {
 
     /* Sección Experiencia */
 
-    .experiencia-container {
+    /* .experiencia-container {
         display: flex;
         flex-direction: column;
     }
@@ -396,7 +412,18 @@ footer div nav ul li a:hover {
         margin: 3em;
         padding: 0;
         font-size: 2em;
+    } */
+
+    .card-personalizada {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+
+    .card {
+        width: 100%;
+    }
+
 
     /* Fin sección Experiencia */
 
@@ -412,7 +439,7 @@ footer div nav ul li a:hover {
 
 }
 
-@media only screen and (min-width: 468px) and (max-width: 968px) {
+@media only screen and (min-width: 468px) and (max-width: 991px) {
     /* Header */
     
     .header-menu .logo {
@@ -431,7 +458,7 @@ footer div nav ul li a:hover {
     }
 
     .navbar {
-        background-color: mediumslateblue;
+        background-color: darkkhaki;
     }
 
     /* Fin estilos del Header con Bootstrap */
@@ -524,6 +551,16 @@ footer div nav ul li a:hover {
     /* Fin sección Productos */
 
     /* Sección Experiencia */
+
+    .card-personalizada {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 75%;
+    }
 
     /* Fin sección Experiencia */
 
